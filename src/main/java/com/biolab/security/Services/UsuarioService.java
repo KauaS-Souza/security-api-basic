@@ -24,6 +24,7 @@ public class UsuarioService {
         u.setEmail(dto.getEmail());
         u.setSenha(passwordEncoder.encode(dto.getSenha()));
         u.setRole(dto.getRole());
+        u.setCpf(dto.getCpf());
         repo.save(u);
         return u;
 
