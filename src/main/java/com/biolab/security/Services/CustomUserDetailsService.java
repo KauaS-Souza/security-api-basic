@@ -28,6 +28,4 @@ public class CustomUserDetailsService implements UserDetailsService {
                 .roles(usuario.getRole().name().replace("ROLE_", ""))
                 .build();
     }
-
-
 }
