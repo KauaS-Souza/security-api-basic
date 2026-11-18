@@ -1,4 +1,4 @@
-package com.biolab.security.Services;
+package com.biolab.security.services;
 
 import com.biolab.security.entities.Usuario;
 import com.biolab.security.repositories.UsuarioRepository;
